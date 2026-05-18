@@ -5,3 +5,10 @@ test_outputs/
 .pytest_cache/
 *.pyc
 .DS_Store
+
+# Ignore large model and weight files
+*.safetensors
+*.zip
+*.bin
+ER model/model file/
+ER model/final_ner_model/
